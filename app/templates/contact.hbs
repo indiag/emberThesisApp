@@ -1,0 +1,21 @@
+
+    <div class="row">
+       <div class="col-md-6">
+
+         {{input id ="title" class ="form-control" value = hello}}
+
+         <h1>{{hello}}</h1>
+         
+           <p>Want to watch Videos?</p>
+            <ul>
+                <li>{{#link-to 'phone'}}Video 1{{/link-to}}</li>
+                <li>{{#link-to 'video1'}}Video 2{{/link-to}}</li>
+                
+
+            </ul>
+           
+        </div>
+        <div class="col-md-6">
+            {{outlet}}
+        </div>
+    </div>
