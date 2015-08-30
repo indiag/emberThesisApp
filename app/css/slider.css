@@ -1,0 +1,38 @@
+﻿.boxgrid {
+  width: 325px;
+  height: 260px;
+  margin: 10px;
+  float: left;
+  background: #161613;
+  border: solid 2px #8399AF;
+  overflow: hidden;
+  position: relative;
+}
+
+.boxgrid img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.boxgrid p {
+  padding: 0 10px;
+  color: #afafaf;
+  font-weight: bold;
+  font: 10pt "Lucida Grande", Arial, sans-serif;
+}
+
+
+.paratext {
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font: 10pt Arial sans-serif;
+  text-align: center;
+}
+
+h3.myslider {
+  color: lightgreen;
+  text-align: center;
+}

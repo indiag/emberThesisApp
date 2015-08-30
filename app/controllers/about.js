@@ -3,16 +3,11 @@ Blogger.AboutController = Ember.Controller.extend(
     {
         actions: {
 
-            showRealName: function () {
-
-                alert('I am a flexislider');
-            },
-
-            fireflex: function () {
-
-                $('.flexslider').flexslider();
+            showJQueryPanel: function () {
+                slider.apply(this, _.values(thecombo));
+                slider.apply(this, _.values(slideup));
+                slider.apply(this, _.values(thecomboslow));
             }
-
         }
     }
 );

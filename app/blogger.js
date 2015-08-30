@@ -3,7 +3,7 @@ Blogger = Ember.Application.create();
 Blogger.AboutView = Ember.View.extend({
     didInsertElement : function(){
         this._super();
-        $('.flexslider').flexslider();
+        $('#targetj').trigger("click");
     }
 });
 
