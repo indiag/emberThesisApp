@@ -1,0 +1,57 @@
+﻿#map{
+    width: 600px;
+    height: 400px;
+}  /* VENKAT/GOOGLE-MAPS. original height 250px width 350px*/
+
+#l1,.gmap {display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: center;}
+
+.gmap_dropdown, .gmap_button_panel {
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: center;
+}
+
+.gmap_button_panel {
+   padding-top: 20px;
+
+}
+
+.navbar-default {
+    background-color: #5597b4;
+}
+.nav {
+
+ text-transform: uppercase;
+ font-weight: bold;
+font-size: 16px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+color: white;
+padding-left: 100px;
+}
+
+
+.mycontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    padding: 20px 0 100px;
+    margin: 5% 20%;
+}
+
+
+.emberlogo {
+
+}
+
+
+

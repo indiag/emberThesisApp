@@ -1,0 +1,30 @@
+ <h2>{{title}}</h2>
+
+{{#view Blogger.AboutView contentBinding="this"}}
+<div class=" mycontainer">
+    <div>
+
+        <div class="boxgrid thecombo">
+            <img class="cover" src="https://dl.dropboxusercontent.com/s/ixafex0hobsjv81/jareck.jpg?dl=0" />
+            <h3 class="myslider">Default Behaviour </h3>
+            <p class="paratext">Simple jQuery Slider<br /><br /><a href="http://plnkr.co/edit/p0HTmR1VivBDbiEc56AI?p=info" target="_BLANK">Plunker</a></p>
+        </div>
+
+        <div class="boxgrid slideup">
+            <img class="cover" src="https://dl.dropboxusercontent.com/s/h8ju3l8uktrnvpf/kamil.jpg?dl=0" />
+            <h3 class="myslider">Slide Up</h3>
+            <p class="paratext">Simple jQuery Slider<br /><br /><a href=http://plnkr.co/edit/p0HTmR1VivBDbiEc56AI?p=info" target="_BLANK">Plunker</a></p>
+        </div>
+        <div class="boxgrid thecomboslow">
+            <img class="cover" src="https://dl.dropboxusercontent.com/s/4opyau3o6z56d1c/florian.jpg?dl=0" />
+            <h3 class="myslider">Slow Duration</h3>
+            <p class="paratext">Simple jQuery Slider<br /><br /><a href="http://plnkr.co/edit/p0HTmR1VivBDbiEc56AI?p=info" target="_BLANK">Plunker</a></p>
+        </div>
+    </div>
+
+    <div id="targetj"
+         {{action 'showJQueryPanel'}}>
+    </div>
+
+</div>
+{{/view}}
